@@ -50,19 +50,24 @@ button {
   color: white;
   width: 100px;
   padding: 10px;
+  border-radius: 20px;
 }
 
 .flowers-image {
   display: flex;
 }
 
+/*NOTE: border radius for rounded corners*/
 .anime-flower-shop-image {
   width: 500px;
   height: auto;
+  border-radius: 20px;
 }
 
+/*NOTE: border radius 50px to get circle effect*/
 .mini-marcui-logo {
   width: 75px;
+  border-radius: 50px;
 }
 
 .marcui-title {
@@ -92,6 +97,72 @@ button {
   justify-content: center;
   align-items: center;
   gap: 40px;
+}
+
+.section-3 {
+  display: flex;
+  flex-direction: column;
+  background-color: #fdc89c;
+  text-align: center;
+  font-style: italic;
+  padding: 60px 60px;
+  font-size: 36px;
+}
+
+.quote-author {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.section-4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+  height: 200px;
+}
+
+.call-to-action-rectangle {
+  display: flex;
+  background-color: #3882f6;
+  border-radius: 20px;
+  /* justify-content: space-between; */
+}
+
+.left-side-text {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.bolded-text {
+  font-weight: 900;
+  color: white;
+  margin: 0;
+}
+
+.text-underneath-bold {
+  color: white;
+  margin: 0;
+}
+
+.call-to-action-rectangle > button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #3882f6;
+  margin: 50px;
+  border-color: white;
+}
+
+.section-5 {
+  display: flex;
+  height: 50px;
+  background-color: #ffbf01;
+  justify-content: center;
+  align-items: center;
 }
 
 ul {
